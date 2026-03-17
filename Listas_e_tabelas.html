@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> 
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas e Tabelas</title>
+</head>
+<body>
+    <header>
+        <h1>Listas e Tabelas em HTML</h1>
+        <p>Prática</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Listas Ordenadas</h2>
+            <ol>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ol>
+
+            <h2>Listas Não Ordenadas</h2>
+            <ul>
+                <li>Item A</li>
+                <li>Item B</li>
+                <li>Item C</li>
+            </ul>
+
+            <h2>Listas de Definição</h2>
+            <dl>
+                <dt>Termo 1</dt>
+                <dd>Definição do termo 1</dd>
+                <dt>Termo 2</dt>
+                <dd>Definição do termo 2</dd>
+            </dl>
+
+            <h2>Listas Ordenadas Aninhadas</h2>
+            <ol>
+                <li>Item 1
+                    <ol>
+                        <li>Subitem 1.1</li>
+                        <li>Subitem 1.2</li>
+                    </ol>
+                </li>
+                <li>Item 2
+                    <ol>
+                        <li>Subitem 2.1</li>
+                        <li>Subitem 2.2</li>
+                    </ol>
+                </li>
+            </ol>
+
+            <h2>Listas Não Ordenadas Aninhadas</h2>
+            <ul>
+                <li>Item A
+                    <ul>
+                        <li>Subitem A.1</li>
+                        <li>Subitem A.2</li>
+                    </ul>
+                </li>
+                <li>Item B
+                    <ul>
+                        <li>Subitem B.1</li>
+                        <li>Subitem B.2</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h2>Listas de Definição Aninhadas</h2>
+            <dl>
+                <dt>Termo 1</dt>
+                <dd>Definição do termo 1
+                    <dl>
+                        <dt>Subtermo 1.1</dt>
+                        <dd>Definição do subtermo 1.1</dd>
+                        <dt>Subtermo 1.2</dt>
+                        <dd>Definição do subtermo 1.2</dd>
+                    </dl>
+                </dd>
+                <dt>Termo 2</dt>
+                <dd>Definição do termo 2
+                    <dl>
+                        <dt>Subtermo 2.1</dt>
+                        <dd>Definição do subtermo 2.1</dd>
+                        <dt>Subtermo 2.2</dt>
+                        <dd>Definição do subtermo 2.2</dd>
+                    </dl>
+                </dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2>Tabela Simples</h2>
+            <table border="1">
+                <caption>Exemplo de Tabela</caption>
+                <thead>
+                    <tr>
+                        <th colspan="3">Tabela de Pessoas</th>
+                    </tr>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Idade</th>
+                        <th>Cidade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Alice</td><td>30</td><td>São Paulo</td></tr>
+                    <tr><td>Alvin</td><td>23</td><td>Fortaleza</td></tr>
+                    <tr><td>Bob</td><td>25</td><td>Rio de Janeiro</td></tr>
+                    <tr><td>Charlie</td><td>35</td><td>Belo Horizonte</td></tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Total de Pessoas:</td>
+                        <td>4</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section>
+            <h2>Tabela Aninhada</h2>
+            <table border="1">
+                <tr>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                    <th>Detalhes</th>
+                </tr>
+                <tr>
+                    <td>Notebook</td>
+                    <td>R$ 3000</td>
+                    <td>
+                        <table>
+                            <tr><th>Marca</th><th>Modelo</th></tr>
+                            <tr><td>Dell</td><td>XPS</td></tr>
+                            <tr><td>Apple</td><td>Mac</td></tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Smartphone</td>
+                    <td>R$ 2000</td>
+                    <td>
+                        <table>
+                            <tr><th>Marca</th><th>Modelo</th></tr>
+                            <tr><td>Samsung</td><td>Galaxy</td></tr>
+                            <tr><td>Motorola</td><td>Moto G</td></tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>

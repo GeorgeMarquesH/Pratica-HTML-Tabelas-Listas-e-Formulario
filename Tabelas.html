@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="George Marques Holanda">
+    <meta name="description" content="Pratica 4">
+    <title>Prática 4</title>
+</head>
+<body>
+    <!-- Tabela Simples -->
+    <h2>Tabela Simples</h2>
+    <table width="50%" border="1">
+        <tr>
+            <td>Alex</td>
+            <td>HTML</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>HTML</td>
+            <td>10</td>
+        </tr>
+    </table>
+
+    <!-- Tabela com Título -->
+    <h2>Tabela com Título</h2>
+    <table width="50%" border="1">
+        <caption>Alunos</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Disciplina</th>
+            <th>Nota</th>
+        </tr>
+        <tr>
+            <td>Alex</td>
+            <td>HTML</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>HTML</td>
+            <td>10</td>
+        </tr>
+    </table>
+
+    <!-- Tabela com Cabeçalho e Rodapé -->
+    <h2>Tabela com Cabeçalho e Rodapé</h2>
+    <table width="50%" border="1">
+        <caption>Alunos</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Disciplina</th>
+                <th>Nota</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="2">Média</td>
+                <td>10</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>Alex</td>
+                <td>HTML</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>HTML</td>
+                <td>10</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Tabela com Cabeçalho e Rodapé usando Colspan e Rowspan -->
+    <h2>Tabela com Cabeçalho e Rodapé usando os atributos Colspan e Rowspan</h2>
+    <table width="50%" border="1">
+        <caption>Alunos</caption>
+        <tr>
+            <th>Aluno</th>
+            <th colspan="2">Disciplina</th>
+        </tr>
+        <tr>
+            <th>Nome</th>
+            <th>Disciplina</th>
+            <th>Nota</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Alex</td>
+            <td>HTML</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>PHP</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Ana</td>
+            <td>HTML</td>
+            <td>10</td>
+        </tr>   
+        <tr>
+            <td>PHP</td>
+            <td>10</td>
+        </tr>
+    </table>
+</body>
+</html>
